@@ -314,9 +314,6 @@ nav {
     &__menu-outer{
         display: flex;
     }
-    &__menu-wrapper:nth-child(1){
-        width: 107px;
-    }
     &__menu-wrapper:nth-child(2){
         margin-left: 98px;
     }
@@ -409,6 +406,11 @@ nav {
 }
 
 @media (max-width: 944px){
+    .footer{
+        &__menu-wrapper:nth-child(1){
+            width: 107px;
+        }
+    }
     .contacts__phone:nth-child(1){
         display: none;
     }
